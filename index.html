@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sana bir sorum var</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="page">
+    <div class="floating-heart heart-one">♥</div>
+    <div class="floating-heart heart-two">♥</div>
+    <div class="floating-heart heart-three">♥</div>
+
+    <section class="card" id="questionCard">
+      <p class="eyebrow">SANA KÜÇÜK BİR SORUM VAR</p>
+      <div class="bear" aria-hidden="true">
+        <span class="ear left-ear"></span><span class="ear right-ear"></span>
+        <span class="bear-face"><span class="eye eye-left"></span><span class="eye eye-right"></span><span
+            class="blush blush-left"></span><span class="blush blush-right"></span><span class="nose"></span></span>
+        <span class="bear-body"></span>
+        <span class="tiny-heart">♥</span>
+      </div>
+      <h1 id="question">Beni seviyonmu ;?</h1>
+      <p class="subtext" id="subtext">Cevabını dikkatli seç bakalım...</p>
+      <div class="buttons">
+        <button class="yes-btn" id="yesBtn">YES ♥</button>
+        <button class="no-btn" id="noBtn">NO</button>
+      </div>
+      <p class="tiny-note">küçük bir soru, kocaman bir gülümseme</p>
+    </section>
+
+    <section class="success-card hidden" id="successCard">
+      <p class="eyebrow">BİLİYORDUM!</p>
+      <div class="hugging-hearts" aria-hidden="true">♡ ♥ ♡</div>
+      <h1>I knew you'd say yes</h1>
+      <p class="subtext">Şimdi küçük sürprizini seçebilirsin.</p>
+
+      <p class="gift-message" id="giftMessage">Bir hediyeye dokun.</p>
+      <button class="again-btn" id="againBtn">Başa dön</button>
+    </section>
+  </main>
+  <div class="toast hidden" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
